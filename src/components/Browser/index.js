@@ -122,8 +122,8 @@ class BrowserHistory extends Component {
           </div>
         </div>
         <ul className="list-container">
-            {searchResults.map(eachHistory => 
-            (<HistoryList details={eachHistory} key= {eachHistory.id} deleteHistory={this.deleteHistory()}))}
+            { searchResults.map(eachHistory => 
+            (<HistoryList details={eachHistory} key= {eachHistory.id} deleteHistory={this.deleteHistory}))}
         </ul>
       </div>
     )
