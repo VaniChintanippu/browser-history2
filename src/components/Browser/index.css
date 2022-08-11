@@ -1,0 +1,10 @@
+.no-history {
+  color: #475569;
+}
+.header-container {
+  background-color: #2850a7;
+  display: flex;
+}
+.searchbox-container {
+  border: 1px solid #6697ff;
+}

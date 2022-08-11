@@ -1,0 +1,30 @@
+.history-list {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .history-list {
+    flex-direction: row;
+  }
+}
+.sub-row {
+  display: flex;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .title-container {
+    flex-direction: row;
+  }
+}
+.heading {
+  color: #475569;
+}
+.doamin {
+  color: #64748b;
+}
+.delete-button {
+  align-self: flex-end;
+}
